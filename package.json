@@ -1,0 +1,15 @@
+{
+  "name": "cinesucre",
+  "version": "1.0.0",
+  "description": "Un entorno virtual en Python permite aislar dependencias de proyectos para evitar conflictos entre ellos. A continuación, se detallan los pasos para crear y activar un entorno virtual en diferentes sistemas operativos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
