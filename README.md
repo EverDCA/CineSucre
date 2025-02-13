@@ -98,7 +98,7 @@ Siguiendo estos pasos, puedes gestionar fácilmente entornos virtuales en Python
 #### Aplicar tailwind config
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["static/templates/*.html"],
+  content: ["templates/*.html"],
   theme: {
     extend: {},
   },
@@ -106,5 +106,5 @@ module.exports = {
 }
 
 
-### Paso 3
+### Paso 4
 #### npx tailwindcss -i ./static/src/tailwind.css -o ./static/css/main.css --watch
