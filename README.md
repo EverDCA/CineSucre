@@ -86,5 +86,25 @@ rmdir /s /q .venv  # Windows
 ---
 Siguiendo estos pasos, puedes gestionar fácilmente entornos virtuales en Python para diferentes proyectos.
 
-## 5. Tailwind
+## 7. Tailwind
 
+### Paso 1
+#### npm install -D tailwindcss@3
+
+### Paso 2
+#### npx tailwindcss init
+
+### Paso 3
+#### Aplicar tailwind config
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["static/templates/*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+
+### Paso 3
+#### npx tailwindcss -i ./static/src/tailwind.css -o ./static/css/main.css --watch
